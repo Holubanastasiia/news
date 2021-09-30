@@ -29,13 +29,18 @@
                                 <img src="images/header__logo-mob.svg" alt="logo" class="header__logo-img">
                             </a>
                         </div>
-                        <nav class="header__menu menu">
+                        <div class="menu__mobile">
+                            <a class="menu__link" href="#">
+                                Menu
+                            </a>
+                        </div>
+                        <div class="menu__mobile menu__mobile_close">
+                            <a class=" menu__link menu__close" href="#">
+                                Close
+                            </a>
+                        </div>
+                        <nav class="header__menu">
                             <ul class="menu__list">
-                                <li class="menu__mobile">
-                                    <a class="menu__link" href="#">
-                                        Menu
-                                    </a>
-                                </li>
                                 <li class="menu__item">
                                     <a class="menu__link" href="#">
                                         News
@@ -121,7 +126,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="main__part">
+                        <div class="main__part" id="team">
                             <h3 class="main__title title">
                                 Meet our team
                             </h3>
@@ -173,14 +178,21 @@
                                                 companies with new funding, recent product
                                                 launches, hot hires and innovative approaches to solving problems.”
                                                 Stable</span>
-                                            <span>
-                                                <a href="#">
-                                                    More...
-                                                </a>
+                                            <span class="read-more-container">
+                                                <span class="readBtn">
+                                                    <a href="#">
+                                                        More...
+                                                    </a>
+                                                </span>
+                                                <span class="extra">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                    odio accusamus earum unde distinctio impedit cupiditate iure veniam.
+                                                    Aliquid, beatae cumque? Nulla obcaecati adipisci mollitia cumque
+                                                    aliquam molestias incidunt eveniet!
+                                                </span>
                                             </span>
                                         </p>
                                     </div>
-
                                 </li>
                                 <li class="main__team-item">
                                     <div class="main__team-item-info">
@@ -212,10 +224,18 @@
                                                 of the view that all financial advisors should be held to the fiduciary
                                                 standard
                                                 teach the fundamentals</span>
-                                            <span>
-                                                <a href="#">
-                                                    More...
-                                                </a>
+                                            <span class="read-more-container">
+                                                <span class="readBtn">
+                                                    <a href="#">
+                                                        More...
+                                                    </a>
+                                                </span>
+                                                <span class="extra">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                    odio accusamus earum unde distinctio impedit cupiditate iure veniam.
+                                                    Aliquid, beatae cumque? Nulla obcaecati adipisci mollitia cumque
+                                                    aliquam molestias incidunt eveniet!
+                                                </span>
                                             </span>
                                         </p>
                                     </div>
@@ -254,10 +274,18 @@
                                                 Families,
                                                 Industry Era, and Inc. magazine. He’s
                                                 committed to sharing insights and lessons learne</span>
-                                            <span>
-                                                <a href="#">
-                                                    More...
-                                                </a>
+                                            <span class="read-more-container">
+                                                <span class="readBtn">
+                                                    <a href="#">
+                                                        More...
+                                                    </a>
+                                                </span>
+                                                <span class="extra">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                    odio accusamus earum unde distinctio impedit cupiditate iure veniam.
+                                                    Aliquid, beatae cumque? Nulla obcaecati adipisci mollitia cumque
+                                                    aliquam molestias incidunt eveniet!
+                                                </span>
                                             </span>
                                         </p>
                                     </div>
@@ -265,7 +293,7 @@
                                 </li>
                             </ul>
 
-                            <h3 class="main__title title">
+                            <h3 class="main__title title" id="journalism">
                                 Independent, deeply reported journalism
                             </h3>
                             <p class="main__text text">
@@ -313,7 +341,35 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__news-content">
+
+                        <div class="content">
+                            <button class="button">
+                                <div class="ring">
+
+                                </div>
+                                <p class="title">
+                                    TABLE OF CONTENT
+                                </p>
+                                <ul class="list">
+                                    <li class="item">
+                                        <a class="link" href="#main">
+                                            How we work
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="link" href="#team">
+                                            Meet our teem
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="link" href="#journalism">
+                                            Independent, deeply reported journalism
+                                        </a>
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                        <!-- <div class="main__news-content">
                             <button class="main__news-content-btn ">
                                 <div class="main__news-content-btn-ring ">
 
@@ -321,8 +377,25 @@
                                 <p class="main__news-content-text">
                                     TABLE OF CONTENT
                                 </p>
-                            </button>
-                            <button class="main__news-content-btn main__news-content-btn-open">
+                                <ul class="main__news-content-list">
+                                    <li class="main__news-content-item">
+                                        <a class="main__news-content-link" href="#main">
+                                            How we work
+                                        </a>
+                                    </li>
+                                    <li class="main__news-content-item">
+                                        <a class="main__news-content-link" href="#team">
+                                            Meet our teem
+                                        </a>
+                                    </li>
+                                    <li class="main__news-content-item">
+                                        <a class="main__news-content-link" href="#journalism">
+                                            Independent, deeply reported journalism
+                                        </a>
+                                    </li>
+                                </ul>
+                            </button> -->
+                        <!-- <button class="main__news-content-btn main__news-content-btn-open">
                                 <div class="main__news-content-btn-ring">
 
                                 </div>
@@ -336,18 +409,18 @@
                                         </a>
                                     </li>
                                     <li class="main__news-content-item">
-                                        <a class="main__news-content-link" href="#">
+                                        <a class="main__news-content-link" href="#team">
                                             Meet our teem
                                         </a>
                                     </li>
                                     <li class="main__news-content-item">
-                                        <a class="main__news-content-link" href="#">
+                                        <a class="main__news-content-link" href="#journalism">
                                             Independent, deeply reported journalism
                                         </a>
                                     </li>
                                 </ul>
-                            </button>
-                        </div>
+                            </button> -->
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -491,6 +564,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
